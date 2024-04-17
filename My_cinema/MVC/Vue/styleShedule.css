@@ -1,0 +1,174 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    height: 1px;
+}
+
+.blocDelete {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttonDel {
+    border: none;
+    margin-top: 1vw;
+    background-color: #d9534f;
+    border-radius: 5px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    cursor: pointer;
+    padding: 0.5vw 1vw;
+    font-weight: bold;
+    color: black;
+}
+
+.buttonDel:hover {
+    background-color: #c9302c;
+}
+
+.fond {
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    height: min-content;
+}
+
+.recherche {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vw;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+}
+
+.blocFilm {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333;
+}
+
+select {
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+input[type="date"] {
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.calendar {
+    background-color: #f9f9f9;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.calendar:focus {
+    outline: none;
+    border-color: #a0a0a0;
+}
+
+@media (max-width: 768px) {
+    .blocFilm {
+        width: 90%;
+    }
+}
+
+.blocTitre {
+    background-color: #333;
+    color: white;
+    padding: 2vw;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+
+}
+
+.blocFleche {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    visibility: hidden;
+}
+
+.fleche1 {
+    width: 5vw;
+    cursor: pointer;
+
+}
+
+.fleche2 {
+    width: 5vw;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.iconeAdd {
+    width: 3vw;
+    height: 3vw;
+}
+
+.iconeAdd:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    margin: 0.5vw;
+    cursor: default;
+}
+
+.blocAff {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleUser.css">
+    <link rel="stylesheet" href="styleMovieInfo.css">
+    <script src="http://localhost:8000/Vue/scriptInfoFilm.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Eczar' rel='stylesheet'>
+</head>
+
+<body>
+    <a href="http://localhost:8000/Vue/accueil.html">
+        <img src="http://localhost:8000/assets/logo.png" style="height:7vw" alt="photo du logo" class="imgLogo">
+    </a>
+    <div class="container">
+        <div class="blocFilm">
+        </div>
+        <div class="addSchedule">
+            <div class="form">
+                <form method="get" action=#>
+                    <label> Add to schedule : </label>
+                    <div class="inputTime">
+                        <input class="calendar" type="date" id="date" name="inputDate" min="1986-05-23">
+                        <input type="time" id="hour" class="hour" name="hour" min="00:00" max="23:59" required>
+                    </div>
+                    <select name="room" id="room_id">
+                        <option value="">--Choose a room--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                    </select>
+                    <input type="submit" value="OK">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

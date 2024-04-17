@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleSubHisto.css">
+    <script src="http://localhost:8000/Vue/scriptChange.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Eczar' rel='stylesheet'>
+</head>
+
+
+<body>
+    <a href="http://localhost:8000/Vue/accueil.html">
+        <img src="http://localhost:8000/assets/logo.png" style="height:7vw" alt="photo du logo" class="imgLogo">
+    </a>
+    <div class="container">
+        <div class="blocSubInfo">
+
+            <div class="userName">
+                <h2 class="firstName">.</h2>
+                <h2 class="lastName">.</h2>
+                <h2>subscription :</h2>
+            </div>
+            <h2 class="userSub">.</h2>
+            <div class="form">
+                <form method="get" action=#>
+                    <select name="memberSub">
+                        <option value="">Change subscription</option>
+                        <option value="Classic">Classic</option>
+                        <option value="VIP">VIP</option>
+                        <option value="Gold">Gold</option>
+                        <option value="Pass Day">Pass Day</option>
+                    </select>
+                </form>
+                <input type="button" class="buttonDelete" value="Delet subscription">
+            </div>
+        </div>
+
+
+        <div class="blocHistoInfo">
+            <div class="userHisto">
+                <h2 class="firstName">.</h2>
+                <h2 class="lastName">.</h2>
+                <h2>history :</h2>
+            </div>
+            <div class="blocHistoName">
+                <div class="blocAff">
+                    <h2 class="histoName">title of movies viewed :</h2>
+                    <h2 style="margin-left:4vw">date of view:</h2>
+                    <h2 class="histoName" style="text-align:end">Delet movies</h2>
+                </div>
+            </div>
+            <div class="form">
+                <form method="get" action=#>
+                    <label> Add to history : </label>
+                    <input type="text" name="filmName">
+                    <input class="calendar" type="date" id="start" name="inputDate" min="1986-05-23">
+                    <input type="submit" value="OK">
+                </form>
+
+
+
+                <div class="blocChoix">
+                    <div class="choixFilm">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>

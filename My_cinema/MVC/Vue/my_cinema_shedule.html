@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleShedule.css">
+    <script src="http://localhost:8000/Vue/scriptInfoSchedule.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Eczar' rel='stylesheet'>
+</head>
+
+<body>
+    <a href="http://localhost:8000/Vue/accueil.html">
+        <img src="http://localhost:8000/assets/logo.png" style="height:7vw" alt="photo du logo" class="imgLogo">
+    </a>
+    <div class="container">
+        <div class="recherche">
+            <div class="fond">
+                <div class="blocFilm">
+                    <input type="date" id="date" class="calendar" name="trip-start" value="" min="2010-01-01"
+                        max="2024-12-31">
+                    <select class="customSelect" id="selectJs">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                        <option value="75">75</option>
+                        <option value="100">100</option>
+                        <option value="150">150</option>
+                        <option value="100">200</option>
+                        <option value="max">MAX</option>
+                    </select>
+                    <input type="submit" name="valider" value="OK" class="okButton">
+                </div>
+            </div>
+            <div class="fond">
+                <div class="add">
+                    <h2 style="margin-right:1vw">Add a new movie schedule</h2>
+                    <a href="http://localhost:8000/Vue/my_cinema.html">
+                        <img class="iconeAdd" alt="iconeAdd" src="http://localhost:8000/assets/iconeAdd.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="blocAff">
+
+        </div>
+
+        <div class="blocFleche">
+            <img src="http://localhost:8000/assets/iconeFleche.png" alt="icone d'une flèche vers la gauche"
+                class="fleche1">
+            <img src="http://localhost:8000/assets/iconeFleche.png" alt="icone d'une flèche vers la droite"
+                class="fleche2">
+        </div>
+    </div>
+</body>
+
+</html>

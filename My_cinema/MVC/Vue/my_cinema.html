@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleSearch.css">
+    <script src="http://localhost:8000/Vue/scriptFilm.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Eczar' rel='stylesheet'>
+</head>
+
+<body>
+    <a href="http://localhost:8000/Vue/accueil.html">
+        <img src="http://localhost:8000/assets/logo.png" style="height:7vw" alt="photo du logo" class="imgLogo">
+    </a>
+    <div class="container">
+        <form method="get" action=#>
+            <label> Enter movie name : </label>
+            <input type="text" name="inputName">
+
+            <label> Enter distributor : </label>
+            <input type="text" name="inputDistributor">
+
+            <select class="customSelect" id="selectJs" name="inputGenre">
+                <option value="all">No genre</option>
+                <option value="Action">Action</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Animation">Animation</option>
+                <option value="Biography">Biography</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Crime">Crime</option>
+                <option value="Drama">Drama</option>
+                <option value="Family">Family</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Horror">Horror</option>
+                <option value="Mystery">Mystery</option>
+                <option value="Romance">Romance</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Thriller">Thriller</option>
+            </select>
+            <select class="customSelect" id="selectNb">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="75">75</option>
+                <option value="100">100</option>
+                <option value="150">150</option>
+                <option value="100">200</option>
+                <option value="max">MAX</option>
+            </select>
+            <input type="submit" name="valider" value="OK">
+        </form>
+
+        <div class="blocAffichage">
+            <div class="carteFilm">
+
+            </div>
+        </div>
+        <div class="blocFleche">
+            <img src="http://localhost:8000/assets/iconeFleche.png" alt="icone d'une flèche vers la gauche"
+                class="fleche1">
+            <img src="http://localhost:8000/assets/iconeFleche.png" alt="icone d'une flèche vers la droite"
+                class="fleche2">
+        </div>
+    </div>
+</body>
+
+</html>

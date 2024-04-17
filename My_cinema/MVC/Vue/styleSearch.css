@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    height: 1px;
+}
+
+h2 {
+    color: white;
+}
+
+.blocFleche {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    visibility: hidden;
+}
+
+.fleche1 {
+    width: 5vw;
+    cursor: pointer;
+
+}
+
+.fleche2 {
+    width: 5vw;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.form {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    max-width: 300px;
+    margin: 2vw;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carteFilm {
+    width: 90vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #cbcbcb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocFleche {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    visibility: hidden;
+}
+
+.fleche1 {
+    width: 5vw;
+    cursor: pointer;
+
+}
+
+.fleche2 {
+    width: 5vw;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.blocAffichage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+
+.userCard {
+    background-color: #333;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1vw;
+    margin: 1vw;
+    transform: translate(3px, -1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.userCard:hover {
+    transform: scale(1);
+}
+
+.userImg {
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgUserIcone {
+    width: 50%;
+    height: auto;
+}
+
+.blocUserInfo {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.userFirstName {
+    font-size: 1.2em;
+}
+
+.userLastName {
+    font-size: 1.2em;
+    padding-left: 1vw;
+}
+
+.flecheDeroulant {
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.selectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.customSelect {
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    padding: 5px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.customSelect option {
+    background: #333;
+    color: #fff;
+}
